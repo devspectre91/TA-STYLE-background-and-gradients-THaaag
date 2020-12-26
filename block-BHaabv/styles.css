@@ -142,7 +142,7 @@ table {
 
 body {
     line-height: 1.5;
-    height: 100vh;
+    height: 120vh;
     background: linear-gradient(#20222F 30%, #1D2029 30% 100%);
 
 }
@@ -170,11 +170,24 @@ header {
     ;
 }
 
+main {
+    padding-bottom: 30px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     color: white;
     font-weight: bold;
+
 }
 
 p {
@@ -206,20 +219,40 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .box {
     background: linear-gradient(#5c6feb 2%, #252B43 2% 100%);
-    background-color: #252B43;
-    flex-basis: 20%;
-    height: 200px;
+
+    flex-basis: 23%;
+    height: 250px;
     padding: 2%;
+    border-radius: 10px;
+}
+
+.box1 {
+    background: linear-gradient(#5c6feb 2%, #252B43 2% 100%);
+}
+
+.box2 {
+    background: linear-gradient(#808bd8 2%, #252B43 2% 100%);
+}
+
+.box3 {
+    background: linear-gradient(#eb905c 2%, #252B43 2% 100%);
+}
+
+.box4 {
+    background: linear-gradient(#eb0808 2%, #252B43 2% 100%);
 }
 
 .box h1 {
     font-size: 48px;
     color: white;
     font-weight: bold;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .bow p {
@@ -230,13 +263,28 @@ p {
     margin-right: 10px;
 }
 
-.fa-facebook-official {
-    color: rgb(3, 86, 194);
+.fa-facebook-official,
+.fa-twitter-square,
+.fa-telegram {
+    color: rgb(87, 158, 250);
+}
+
+.fa-instagram {
+    color: #eb0808;
 }
 
 .up-arrow {
     color: green;
 
+}
+
+.down-arrow {
+    color: #eb0808;
+
+}
+
+.down-arrow p {
+    color: #eb0808;
 }
 
 .up-arrow p {
@@ -245,4 +293,33 @@ p {
 
 .followers {
     letter-spacing: 2px;
+}
+
+
+/* styling overview ------------------------------------------------------ */
+
+.overview {
+    flex-wrap: wrap;
+    padding: 20px 0;
+
+}
+
+.overview .box {
+    height: 160px;
+    margin-bottom: 30px;
+    background-color: #252B43;
+    background: linear-gradient(#5c6feb 0%, #252B43 0% 100%);
+    padding: 30px;
+}
+
+.overview .up-arrow {
+    align-items: baseline;
+}
+
+.overview .flex-column {
+    justify-content: space-between;
+}
+
+.down-arrow p {
+    color: #eb0808;
 }
