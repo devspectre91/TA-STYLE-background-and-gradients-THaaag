@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    height: 100vh;
+    background: linear-gradient(#20222F 30%, #1D2029 30% 100%);
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* styling header ------------------------------------------------------------- */
+header {
+    padding: 30px 0;
+    ;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(69, 120, 170);
+    font-weight: bold;
+}
+
+.btn {
+    width: 50px;
+    height: 25px;
+    margin-left: 20px;
+    background: linear-gradient(to right, #6376c5, #52C2A2);
+    border-radius: 10px;
+}
+
+.circle {
+
+    margin-left: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    background-color: #1D2029;
+}
+
+/* styling intro */
+.flex-r {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background: linear-gradient(#5c6feb 2%, #252B43 2% 100%);
+    background-color: #252B43;
+    flex-basis: 20%;
+    height: 200px;
+    padding: 2%;
+}
+
+.box h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+.bow p {
+    font-weight: normal;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.fa-facebook-official {
+    color: rgb(3, 86, 194);
+}
+
+.up-arrow {
+    color: green;
+
+}
+
+.up-arrow p {
+    color: green;
+}
+
+.followers {
+    letter-spacing: 2px;
+}
